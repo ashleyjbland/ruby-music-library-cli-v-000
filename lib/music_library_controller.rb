@@ -90,7 +90,7 @@ class MusicLibraryController
     if (Song.all).include?(input)
       songs = Song.all.sort_by {|song| song.name}[input-1]
     end
-    puts "Playing #{song.name} by #{song.artist.name}"
+    puts "Playing #{songs.name} by #{songs.artist.name}"
   end
 
 
