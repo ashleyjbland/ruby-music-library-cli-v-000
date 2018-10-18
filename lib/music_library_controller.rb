@@ -79,6 +79,7 @@ class MusicLibraryController
       list_songs[input.to_i-1]
     else
       intro
+      binding.pry
     end
   end
 
