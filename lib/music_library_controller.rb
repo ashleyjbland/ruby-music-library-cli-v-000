@@ -73,7 +73,7 @@ class MusicLibraryController
   end
 
   def play_song
-    #intro = puts "Which song number would you like to play?"
+    intro = puts "Which song number would you like to play?"
 
 
 
