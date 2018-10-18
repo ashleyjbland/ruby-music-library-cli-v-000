@@ -77,9 +77,9 @@ class MusicLibraryController
     input = gets.chomp
     if input.to_i-1 <= list_songs.count
       list_songs[input.to_i-1]
+        binding.pry
     else
       intro
-      binding.pry
     end
   end
 
