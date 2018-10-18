@@ -75,7 +75,7 @@ class MusicLibraryController
   def play_song
     intro = puts "Which song number would you like to play?"
     input = gets.chomp
-    if input.to_i-1 <= list_songs.count
+    if input.to_i-1 <= list_songs.count && input.to_i-1 > 0
       list_songs[input.to_i-1]
         binding.pry
     else
