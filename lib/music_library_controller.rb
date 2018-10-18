@@ -74,7 +74,7 @@ class MusicLibraryController
 
   def play_song
     intro = puts "Which song number would you like to play?"
-    input = gets.input.to_i
+    input = gets.chomp
 
 
 
