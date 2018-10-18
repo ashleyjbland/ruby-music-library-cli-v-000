@@ -29,6 +29,7 @@ class MusicLibraryController
       puts "What would you like to do?"
       gets.strip
     end
+    end
   end
 
   def list_songs
