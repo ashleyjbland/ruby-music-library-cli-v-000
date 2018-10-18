@@ -90,7 +90,7 @@ class MusicLibraryController
     if (Song.all).include?(input)
       binding.pry
       song = Song.all.sort_by {|song| song.name}[input-1]
-  
+
     end
     puts song
   end
