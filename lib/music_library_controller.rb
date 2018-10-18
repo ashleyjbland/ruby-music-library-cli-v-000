@@ -19,16 +19,20 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     input = gets.strip
+
+    until gets.strip == "exit"
+      puts "What would you like to do?"
+      gets.strip
+    end
+
+
     if input = "list songs"
       list_songs
     elsif input = "list_artists"
       list_artists
 
 
-    until gets.strip == "exit"
-      puts "What would you like to do?"
-      gets.strip
-    end
+
     end
   end
 
