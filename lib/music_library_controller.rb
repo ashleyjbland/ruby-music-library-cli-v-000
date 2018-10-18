@@ -89,7 +89,7 @@ class MusicLibraryController
     input = gets.chomp.to_i
     #if Song.all[input-1] == true
       Song.all[input-1]
-    end
+  
   end
 
 
