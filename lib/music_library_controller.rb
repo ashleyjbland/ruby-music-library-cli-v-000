@@ -91,7 +91,7 @@ class MusicLibraryController
       song = Song.all.sort_by {|song| song.name}[input-1]
   binding.pry
     end
-    puts song
+    song
   end
 
 
