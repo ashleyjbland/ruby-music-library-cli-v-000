@@ -89,6 +89,7 @@ class MusicLibraryController
     input = gets.chomp.to_i
     if (Song.all).include?(input)
       songs = Song.all.sort_by {|song| song.name}[input-1]
+      binding.pry
     end
 
   end
