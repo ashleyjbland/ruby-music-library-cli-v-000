@@ -24,16 +24,6 @@ class MusicLibraryController
       puts "What would you like to do?"
       gets.strip
     end
-
-
-    if input = "list songs"
-      list_songs
-    elsif input = "list_artists"
-      list_artists
-
-
-
-    end
   end
 
   def list_songs
